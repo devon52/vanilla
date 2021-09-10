@@ -1,0 +1,1 @@
+window.onload=function(){"undefined"!=typeof ajaxurl&&null!==ajaxurl||(ajaxurl=kan_vars.ajax),"undefined"!=typeof ajaxurl&&null!==ajaxurl||(ajaxurl=geo_vars.ajax),jQuery.ajax({type:"POST",url:ajaxurl,data:{action:"mfs_can_meodal_2kmsa1",disabled:0},dataType:"json"})};
